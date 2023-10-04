@@ -1,0 +1,62 @@
+[
+    {
+        "title": "DOM", 
+        "image": "images/DOM.webp",
+        "definition":"El DOM, Document object model, es el esquema de organización jerarquico con los que se interpretan HTMLs y XMLs.",
+        "ampliar":"Algunos Frameworks y Librerías de front-end, como React, generan un Virtual DOM, que les permite percibir los cambios en la interfaz y renderizar o re-renderizar unicamente los elementos del DOM que han cambiado en vez de toda la página de cada vez."
+    },
+    {
+        "title": "Debbuger", 
+        "image": "images/debugger.webp",
+        "definition":"Programa que se utiliza para ejecutar un código en un entorno controlado con el fin de encontrar errores (bugs) en el mismo.",
+        "ampliar":"Normalmente, se pueden consultar los valores de las variables, los recursos en uso y/o pausar la ejecución e ir ordenando la ejecución paso a paso si bien depende de la herramienta y el lenguaje que estemos usando."
+    },
+    {
+        "title": "Data Layer", 
+        "image": "images/Data-layer.webp",
+        "definition":"Capa intermedia entre el usuario y las aplicaciones que hacen seguimiento de lo que visualiza el usuario. Esta capa consiste en un esqueleto de datos utilizado para analizar el tráfico y en general parámetros que bordean la categoría de grises"
+    },
+    {
+        "title": "Input", 
+        "image": "images/Input.webp",
+        "definition":"Del inglés entrada, quiere decir eventos o valores que se le pasan a un programa para ejecutar un código. Algunos ejemplos pueden ser un click sobre un botón o el texto que se escribe en un buscador"
+    },
+    {
+        "title": "Frontend", 
+        "image": "images/Front.webp",
+        "definition":"El front es la parte de la aplicación web que interactua de manera directa con el usuario. En el front se encuentran el código HTML, CSS y Javascript que se cargan en el navegador.",
+        "ampliar":"En el front end nos podemos encontrar varias especialidades como son el diseño de interfaces y experiencia de usuario, la maquetación web y la programación más estricta."
+    },
+    {
+        "title": "Backend", 
+        "image": "images/Backend.webp",
+        "definition":"Es la parte de una aplicación que no se encuentra a la vista del usuario. Esta capa incluye las apis que comunican el frontend con la base de datos procesando las peticiones a la misma, el propio servicio de bases de datos y la gestión de la infraestructura (servidores).",
+        "ampliar":"Mientras que en frontend existe un lenguaje de programación único, javascript, en el lado del backend se utilizan una buena variedad de lenguajes y herramientas en sus diferentes facetas como php, java, javascript, python, sql, bash..."
+    },
+    {
+        "title": "Cliente FTP", 
+        "image": "images/ftp.webp",
+        "definition":"Aplicación que envía y/o recibe archivos de un servidor mediante el protocolo FTP. Un ejemplo es Filezilla."
+    },
+    {
+        "title": "Puerto 80", 
+        "image": "images/Ports.webp",
+        "definition":"Puerto TCP ampliamente conocido que por regla general se utiliza para gestionar peticiones HTTP en un servidor.",
+        "ampliar":"El HTTPS se gestiona en el puerto 443."
+    },
+    {
+        "title": "HTTP", 
+        "image": "images/Http.webp",
+        "definition":"Protocolo TCP para la transferencia de hipertexto. Era el principal protocolo de la web hasta la llegada de HTTPS. Sirve para realizar peticiones de clientes a servidores web, si bien la mayor parte de los paquetes son elementos multimedia como el HTML y el código Javascript del sitio."
+    },
+    {
+        "title": "HTTPS", 
+        "image": "images/Https.webp",
+        "definition":"Versión segura del protocolo HTTP que encripta las comunicaciones. A día de hoy se utiliza mucho más que la versión básica, que casi no cuenta con respaldo de los navegadores actuales."
+    },
+    {
+        "title": "Semántica", 
+        "image": "images/Semantica.webp",
+        "definition":"La semántica en la web consiste en la capacidad de las máquinas de entender el lenguaje humano de manera que pueden procesar de manera mucho más avanzada los recursos de la web, ofreciendo una experiencia de usuario mucho más inmersiva y personalizada."
+    }
+]
