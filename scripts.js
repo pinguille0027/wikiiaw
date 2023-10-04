@@ -13,7 +13,7 @@ function showData(datosJson) {
         const definitionRow = document.createElement('tr');
         const definitionCell = document.createElement('td');
         definitionCell.innerHTML = item.definition;
-        fetch('datos.json');
+
         table.appendChild(titleRow);
         titleRow.appendChild(titleCell)
         table.appendChild(imageRow);
