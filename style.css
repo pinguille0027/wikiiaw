@@ -52,6 +52,50 @@ header{
 main, footer{
     background-color: rgb(var(--fondo-cuerpo));
 }
+main{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
 table, tr{
     border: 1px solid rgb(var(--accent));
+    width: 300px;
+    border-collapse: collapse;
+}
+table img{
+    width: 100%;
+    padding-bottom: 1rem;
+}
+td{
+    border-top: 1px solid rgb(var(--accent));
+    border-collapse: collapse;
+    padding: 0px;
+}
+tbody{
+    font-size: 14px;
+}
+tbody tr th{
+width:calc(300px*0.30) ;
+text-align: center;
+font-weight: 700;
+}
+tbody tr td{
+    padding:5px ;
+    text-align: justify;
+}
+thead{
+    background-color: rgb(var(--accent));
+    color: rgb(var(--fondo-cuerpo));
+}
+thead th{
+    font-size: 18px;
+    font-weight: 700;
+}
+footer{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
 }
