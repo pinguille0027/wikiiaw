@@ -23,7 +23,7 @@
     },
     {
         "title": "Frontend", 
-        "image": "images/Front.webp",
+        "image": "images/Front.png",
         "definition":"El front es la parte de la aplicación web que interactua de manera directa con el usuario. En el front se encuentran el código HTML, CSS y Javascript que se cargan en el navegador.",
         "ampliar":"En el front end nos podemos encontrar varias especialidades como son el diseño de interfaces y experiencia de usuario, la maquetación web y la programación más estricta."
     },

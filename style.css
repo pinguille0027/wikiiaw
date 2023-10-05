@@ -77,12 +77,12 @@ td{
 tbody{
     font-size: 14px;
 }
-tbody tr th{
+tbody th{
 width:calc(300px*0.30) ;
 text-align: center;
 font-weight: 700;
 }
-tbody tr td{
+tbody td{
     padding:5px ;
     text-align: justify;
 }
@@ -90,9 +90,10 @@ thead{
     background-color: rgb(var(--accent));
     color: rgb(var(--fondo-cuerpo));
 }
-thead th{
+thead th, thead td{
     font-size: 18px;
     font-weight: 700;
+    height: 30px;
 }
 footer{
     padding-top: 20px;

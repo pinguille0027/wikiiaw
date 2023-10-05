@@ -7,10 +7,10 @@ function showData(datosJson) {
         const titleRow = document.createElement('tr')
         const titleCell = document.createElement('th');
         titleCell.innerHTML = item.title;
-        titleCell.colspan = "2";
+        titleCell.colSpan = 2;
         const imageRow = document.createElement('tr');
         const imageCell = document.createElement('td')
-        imageCell.colspan= "2";
+        imageCell.colSpan= 2;
         const image = document.createElement('img')
         image.src = item.image
         const tbody = document.createElement('tbody');
@@ -28,8 +28,9 @@ function showData(datosJson) {
         imageCell.appendChild(image)
         table.appendChild(tbody);
         tbody.appendChild(definitionRow);
-        definitionRow.appendChild(definitionCell)
         definitionRow.appendChild(definitionTitleCell)
+        definitionRow.appendChild(definitionCell)
+        
 
         if (item.ampliar) {
             const AmpliarRow = document.createElement('tr');
@@ -38,8 +39,9 @@ function showData(datosJson) {
             const AmpliarCell = document.createElement('td');
             AmpliarCell.innerHTML = item.ampliar;
             tbody.appendChild(AmpliarRow);
-            AmpliarRow.appendChild(AmpliarCell)
             AmpliarRow.appendChild(AmpliarTitleCell)
+            AmpliarRow.appendChild(AmpliarCell)
+            
         }
 
         main.appendChild(table);
