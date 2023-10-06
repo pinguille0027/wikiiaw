@@ -1,6 +1,6 @@
 
 function showData(datosJson) {
-    const main = document.getElementById('main');
+    const cardcontainer = document.getElementById('cardcontainer');
     datosJson.forEach(item => {
         const table = document.createElement('table');
         const thead = document.createElement('thead');
@@ -44,7 +44,7 @@ function showData(datosJson) {
             
         }
 
-        main.appendChild(table);
+        cardcontainer.appendChild(table);
     });
 };
 window.addEventListener('load', async () => {

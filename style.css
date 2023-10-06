@@ -1,29 +1,32 @@
-*{
+* {
     margin: 0px;
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
-    --fondo: 37,54,53;
+    --fondo: 37, 54, 53;
     --fondo-cuerpo: 19, 29, 25;
     --accent: 87, 171, 131;
     --link: 25, 152, 99;
     --white: 255, 255, 255;
 }
-body{
+
+body {
     background-color: rgb(var(--fondo));
     color: rgb(var(--white));
 }
-.encabezado{
+
+.encabezado {
     background-image: url("images/background.webp");
     background-position: 50%;
-  background-size: cover;
+    background-size: cover;
     height: 160px;
-    margin-bottom: calc(160px*-1);
+    margin-bottom: -160px;
     opacity: 36%;
     z-index: -2;
     position: sticky;
     top: 0;
 }
+
 .encabezado::before {
-    background-image: linear-gradient(to bottom,rgba(var(--fondo),0) 25%,rgb(var(--fondo)));
+    background-image: linear-gradient(to bottom, rgba(var(--fondo), 0) 25%, rgb(var(--fondo)));
     bottom: 0;
     content: "";
     display: block;
@@ -31,13 +34,15 @@ body{
     position: absolute;
     width: 100%;
     z-index: -1;
-  }
-.bodyContainer{
+}
+
+.bodyContainer {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
-header{
+
+header {
     display: flex;
     align-items: flex-end;
     gap: 50px;
@@ -45,14 +50,21 @@ header{
     margin-bottom: 20px;
 }
 
-.logo{
+.logo {
     max-height: 80px;
     max-width: 174px;
 }
-main, footer{
+
+main,
+footer {
     background-color: rgb(var(--fondo-cuerpo));
 }
-main{
+.intro{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#cardcontainer {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
@@ -60,42 +72,52 @@ main{
     padding-top: 20px;
 }
 
-table, tr{
+table,
+tr {
     border: 1px solid rgb(var(--accent));
     width: 300px;
     border-collapse: collapse;
 }
-table img{
+
+table img {
     width: 100%;
     padding-bottom: 1rem;
 }
-td{
+
+td {
     border-top: 1px solid rgb(var(--accent));
     border-collapse: collapse;
     padding: 0px;
 }
-tbody{
+
+tbody {
     font-size: 14px;
 }
-tbody th{
-width:calc(300px*0.30) ;
-text-align: center;
-font-weight: 700;
+
+tbody th {
+    width: calc(300px*0.30);
+    text-align: center;
+    font-weight: 700;
 }
-tbody td{
-    padding:5px ;
+
+tbody td {
+    padding: 5px;
     text-align: justify;
 }
-thead{
+
+thead {
     background-color: rgb(var(--accent));
     color: rgb(var(--fondo-cuerpo));
 }
-thead th, thead td{
+
+thead th,
+thead td {
     font-size: 18px;
     font-weight: 700;
     height: 30px;
 }
-footer{
+
+footer {
     padding-top: 20px;
     text-align: center;
     font-size: 16px;
